@@ -1,0 +1,333 @@
+@charset "UTF-8";
+* {
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  font-size: 12px;
+  font-family: '宋体';
+  color: #333; }
+
+#header {
+  width: 100%; }
+
+#header .headertopbr {
+  width: 100%;
+  height: 32px;
+  border-bottom: 1px solid #ccc;
+  color: #808080; }
+
+#header .headertopbc {
+  width: 100%;
+  height: 31px;
+  background: #f7f7f7; }
+
+#header .headertopcenter {
+  width: 1200px;
+  height: 31px;
+  line-height: 32px;
+  margin: 0 auto; }
+
+#header .headertopright {
+  width: 126px;
+  float: right;
+  position: relative; }
+
+#header #WebNotice {
+  width: 70px;
+  height: 18px;
+  line-height: 18px;
+  margin: 7px 0 0 0;
+  float: left;
+  display: inline;
+  position: relative;
+  cursor: pointer; }
+
+#header #WebNotice .Dropnotice {
+  background: url("http://i4.vanclimg.com/cms/20160912/notice.png") no-repeat scroll 0px 0px;
+  width: 55px;
+  padding-left: 26px;
+  text-align: left;
+  color: #808080;
+  display: block; }
+
+#header #WebNotice:hover .Dropnotice {
+  color: #a10000; }
+
+#header .communion {
+  float: right; }
+
+#header .communion .weixinbox {
+  float: left; }
+
+#header .communion .weixinbox .weixin {
+  float: left;
+  position: relative;
+  background: url("http://i1.vanclimg.com/cms/20150605/w1.jpg") no-repeat left 3px;
+  margin-left: 10px;
+  display: inline;
+  height: 21px;
+  cursor: pointer;
+  width: 20px;
+  margin-top: 4px; }
+
+#header .communion .weixinbox .weixinQR {
+  width: 148px;
+  height: 169px;
+  right: 0;
+  top: 30px;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  background: url("http://i2.vanclimg.com/header/20130116/weixin.png") no-repeat;
+  display: none; }
+
+#header .communion .weixinbox:hover .weixinQR {
+  display: inline; }
+
+#header .communion .weibo {
+  float: right;
+  width: 20px;
+  height: 25px;
+  background: url("http://i2.vanclimg.com/cms/20150605/w2.jpg") no-repeat left 3px;
+  margin-top: 4px; }
+
+#header .headertopleft {
+  float: right;
+  min-width: 240px; }
+
+#header .headertopleft .topArealeft {
+  float: left; }
+
+#header .headertopleft .topArealeft span a {
+  color: #808080; }
+
+#header .headertopleft .topArearight {
+  margin: 0 0 0 13px;
+  float: left;
+  padding-right: 14px;
+  display: inline; }
+
+#header .headertopleft .topArearight a {
+  color: #808080; }
+
+#header .headertopleft .topArearight:hover a {
+  color: #a10000; }
+
+#header .headercenter {
+  width: 1200px;
+  height: 62px;
+  margin: 20px auto 25px; }
+
+#header .headercenter .headercentercontent {
+  width: 438px;
+  padding-top: 8px;
+  float: right; }
+
+#header .headercenter .headercentertop {
+  height: 29px; }
+
+#header .headercenter .headercenterbottom {
+  width: 400px;
+  padding-top: 5px;
+  line-height: 18px;
+  color: #727171;
+  padding-left: 15px; }
+
+#header .headercenter .headercentertop .search {
+  float: left; }
+
+.headercentertop .search #sch {
+  width: 249px;
+  height: 27px;
+  padding: 0 5px;
+  line-height: 27px;
+  border: 1px solid #c9caca;
+  font-size: 8px;
+  color: #ccc;
+  float: left; }
+
+.headercentertop .search #btnsearch {
+  width: 49px;
+  height: 29px;
+  border: none;
+  cursor: pointer;
+  background: url("http://i2.vanclimg.com/cms/20150228/vanclsprite.png") no-repeat scroll -100px 0;
+  padding: 10px 0; }
+
+#header .headercenter #shoppingCarNone {
+  width: 105px;
+  height: 27px;
+  border: 1px solid #c1383e;
+  background: url("http://i2.vanclimg.com/cms/20150228/vanclsprite.png") no-repeat scroll -154px 0;
+  position: relative;
+  float: right;
+  z-index: 10; }
+
+#header .headercenter #shoppingCarNone #shoppingtrack {
+  display: block;
+  padding-left: 29px;
+  padding-top: 6px;
+  font-size: 12px;
+  color: #fff; }
+
+#header .headercenter #shoppingCarNone .bottomlines {
+  display: none;
+  background: #fff;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  z-index: 10;
+  top: 25px; }
+
+#header .headercenter #shoppingCarNone:hover {
+  border-bottom: 1px solid #FFFFFF;
+  background-position: -153px -29px;
+  z-index: 1001; }
+
+#header .headercenter #shoppingCarNone:hover #shoppingtrack {
+  color: #C1383E; }
+
+#header .headercenter #shoppingCarNone:hover .bottomlines {
+  display: block; }
+
+#header .headercenter #shoppingCarNone .shoppingList {
+  display: none; }
+
+#header .headercenter #shoppingCarNone:hover .shoppingList {
+  display: block;
+  width: 315px;
+  height: auto;
+  padding: -154px;
+  border: 1px solid #b81c22;
+  position: absolute;
+  right: -1px;
+  top: 28px;
+  background: #FFFFFF; }
+
+#header .headercenter .headercenterbottom {
+  width: 440px;
+  padding-top: 5px;
+  line-height: 18px;
+  color: #727171;
+  padding-left: 15px; }
+
+#header .headercenter .pushword {
+  color: #727171;
+  margin-right: 5px; }
+
+#header #mainheadernav {
+  width: 1000px;
+  height: 22px;
+  margin: 30px auto;
+  position: relative;
+  padding-left: 200px;
+  z-index: 300; }
+
+#header #mainheadernav .vanclimg {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0; }
+
+#header #mainheadernav .vanclimg a {
+  width: 185px;
+  height: 46px;
+  background: url("http://i4.vanclimg.com/cms/20160923/logo18546.png") no-repeat scroll;
+  display: block; }
+
+#header #mainheadernav li a {
+  color: #727171; }
+
+#header #mainheadernav li {
+  float: left;
+  width: 95px;
+  line-height: 22px;
+  padding: 0 0 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  position: relative;
+  z-index: 220; }
+
+#header #mainheadernav li em {
+  display: block;
+  width: 25px;
+  height: 13px;
+  background: url("http://i3.vanclimg.com/cms/20170329/icon_hot.png") no-repeat scroll;
+  position: absolute;
+  left: 67px;
+  top: -5px; }
+
+#header #mainheadernav li:nth-of-type(4) em {
+  left: 62px; }
+
+#header #mainheadernav li .borderline {
+  display: block;
+  height: 16px;
+  width: 1px;
+  border-right: solid 1px #888888;
+  position: absolute;
+  right: 1px;
+  top: 5px;
+  overflow: hidden; }
+
+#header #mainheadernav #subnav {
+  display: none;
+  width: 95px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -1px;
+  top: 30px; }
+
+#header #mainheadernav #subnav span {
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-top: 5px solid #B81C22; }
+
+#header #mainheadernav #subnav ul {
+  border: 1px solid #efefef;
+  border-top: 0px;
+  padding: 10px 0; }
+
+#header #mainheadernav #subnav ul li {
+  text-align: center;
+  line-height: 35px;
+  background: none;
+  padding: 0;
+  float: none;
+  font-size: 16px; }
+
+#header #mainheadernav ul li a:hover {
+  color: #A10000; }
+
+#header #mainheadernav ul li:nth-of-type(3):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(4):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(5):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(6):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(7):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(8):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(9):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(10):hover #subnav {
+  display: block; }
+
+#header #mainheadernav ul li:nth-of-type(11):hover #subnav {
+  display: block; }
